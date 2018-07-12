@@ -120,6 +120,12 @@ numbers = [
 ]
 
 # your code goes here
+for i in numbers:
+    if i == 412:
+        break
+    if i %2!=0:
+        print(i)
+     
 for number in numbers:
     if number == 237:
         break
